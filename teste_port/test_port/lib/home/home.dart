@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
               SizedBox(width: 30,),
               IconButton(
                 icon: Icon(Icons.gamepad),
-                iconSize: 50,
+                iconSize: 55,
                 color: Theme.of(context).primaryColor,
                 onPressed: (){
                   //? Script para realizar rota

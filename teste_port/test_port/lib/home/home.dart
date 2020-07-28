@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       drawer: Drawer(), //? Widget da "gaveta" posicionada a direita
       appBar: AppBar(
-        title: Text("Nome do App"),
+        title: Text("Aplicativo de pt"),//testando
         centerTitle: true,
       ),
       body: Column(
@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
               SizedBox(width: 30,),
               IconButton(
                 icon: Icon(Icons.gamepad),
-                iconSize: 50,
+                iconSize: 55,
                 color: Theme.of(context).primaryColor,
                 onPressed: (){
                   //? Script para realizar rota

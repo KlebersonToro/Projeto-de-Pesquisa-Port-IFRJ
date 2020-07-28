@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       drawer: Drawer(), //? Widget da "gaveta" posicionada a direita
       appBar: AppBar(
-        title: Text("Nome do App"),
+        title: Text("Um teste"),
         centerTitle: true,
       ),
       body: Column(

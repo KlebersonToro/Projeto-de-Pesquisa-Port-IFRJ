@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "463981739898",
+    "firebase_url": "https://ppp---apprender.firebaseio.com",
+    "project_id": "ppp---apprender",
+    "storage_bucket": "ppp---apprender.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463981739898:android:aea056ac1e614bc43e60c3",
+        "android_client_info": {
+          "package_name": "com.ifrj.rkportapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463981739898-imlgp8harqd6gd7bcjdp4h3co18r08tm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ifrj.rkportapp",
+            "certificate_hash": "ca1031ae35c5004acab367781a8f34144e965c12"
+          }
+        },
+        {
+          "client_id": "463981739898-s538vleokc9cgfvvsg4kksnjkgqshkgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsBOnuV2--synDtt9tLJ_qQk83ehz0EII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463981739898-s538vleokc9cgfvvsg4kksnjkgqshkgq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

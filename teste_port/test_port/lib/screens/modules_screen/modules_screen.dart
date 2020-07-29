@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class ModuleScreen extends StatefulWidget {
+class ModulesScreen extends StatefulWidget {
   @override
-  _ModuleScreenState createState() => _ModuleScreenState();
+  _ModulesScreenState createState() => _ModulesScreenState();
 }
 
-class _ModuleScreenState extends State<ModuleScreen> {
+class _ModulesScreenState extends State<ModulesScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(

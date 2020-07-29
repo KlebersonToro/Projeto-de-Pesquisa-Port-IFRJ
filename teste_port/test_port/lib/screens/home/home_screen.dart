@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_port/screens/stage_screen/stage_screen.dart';
+import 'package:test_port/screens/modules_screen/modules_screen.dart';
 import 'package:test_port/widgets/CustomDrawer/custom_drawer.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: TabBarView(
           children: [
             Container(),
-            Container(child: ModuleScreen(),),
+            Container(child: ModulesScreen(),),
             Container(),
 
           ],

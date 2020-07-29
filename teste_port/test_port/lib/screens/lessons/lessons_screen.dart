@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class LicaoPage extends StatelessWidget {
-  bool teste = false;
+class LessonScreen extends StatelessWidget {
+  final bool teste = false;
   @override
   Widget build(BuildContext context) {
     return Container(

@@ -1,6 +1,7 @@
-# test_port
+# Projeto de Pesquisa IFRJ: App Learning Portuguese
 
-A new Flutter project.
+An app for learning Brazillian Portuguese.
+Projeto de Pesquisa IFRJ Campus Arraial do Cabo.
 
 ## Getting Started
 

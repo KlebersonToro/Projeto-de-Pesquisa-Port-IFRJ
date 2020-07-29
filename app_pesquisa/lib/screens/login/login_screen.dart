@@ -10,18 +10,18 @@ class LoginScreen extends StatelessWidget {
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final TextEditingController emailController = TextEditingController();
-  final TextEditingController senhaController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        title: Text("Entrar"),
+        title: Text("Log In"),
         centerTitle: true,
         actions: <Widget>[
           FlatButton(
-            child: const Text("CRIAR CONTA", style: TextStyle(color: Colors.white),),
+            child: const Text("SIGN UP", style: TextStyle(color: Colors.white),),
             onPressed: (){
               Navigator.of(context).pushNamed('/signup');
             },
@@ -34,7 +34,7 @@ class LoginScreen extends StatelessWidget {
             builder: (_, userManager, __){
               return ListView(
             children: <Widget>[
-              //? Login com Email e Senha
+              //? Login com Email e password
               Container(
                 margin: EdgeInsets.all(24),
                 child: Column(
@@ -56,16 +56,16 @@ class LoginScreen extends StatelessWidget {
                     SizedBox(height: 16,),
 
                     TextFormField(
-                      controller: senhaController,
+                      controller: passwordController,
                       enabled: !userManager.loading,
-                      decoration: InputDecoration(hintText: "Senha"),
+                      decoration: InputDecoration(hintText: "Password"),
                       autocorrect: false,
                       obscureText: true,
-                      validator: (senha){
-                        if(senha.isEmpty)
-                          return "Senha Inválida";
-                        else if(senha.length < 6)
-                          return "Senha Inválida, muito curta";
+                      validator: (password){
+                        if(password.isEmpty)
+                          return "Invalid Password";
+                        else if(password.length < 6)
+                          return "Password too short";
                         return null;
                       },
                     ),
@@ -73,7 +73,7 @@ class LoginScreen extends StatelessWidget {
                     Align(
                       alignment: Alignment.centerRight,
                       child: FlatButton(
-                        child: Text("Esqueci a minha senha", style: TextStyle(color: Theme.of(context).primaryColor),),
+                        child: Text("Forgot my password", style: TextStyle(color: Theme.of(context).primaryColor),),
                         padding: EdgeInsets.zero,
                         onPressed: (){},
                       ),
@@ -91,13 +91,13 @@ class LoginScreen extends StatelessWidget {
                   color: Theme.of(context).primaryColor,
                   disabledColor: Theme.of(context).primaryColor.withAlpha(100),
                   child: userManager.loading ? CircularProgressIndicator(valueColor: AlwaysStoppedAnimation(Colors.white)) :
-                  const Text("Entrar", style: TextStyle(color: Colors.white, fontSize: 18),),
+                  const Text("Log In", style: TextStyle(color: Colors.white, fontSize: 18),),
                   onPressed: userManager.loading ? null : (){
                     if(formKey.currentState.validate()){
                       userManager.signIn(
                         user: User(
                           email: emailController.text,
-                          password: senhaController.text
+                          password: passwordController.text
                         ),
 
                         onFail: (e){

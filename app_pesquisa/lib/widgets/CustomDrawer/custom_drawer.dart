@@ -21,31 +21,48 @@ class CustomDrawer extends StatelessWidget {
           Container(
             margin: EdgeInsets.fromLTRB(15, 10, 15, 10),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                  //?Se tiver algum usuário logado, exibir o CustomDrawerHeader, senao, exibir um botão de login
+                //?Se tiver algum usuário logado, exibir o CustomDrawerHeader, senao, exibir um botão de login
 
-                  context.watch<UserManager>().isLoggedIn ? 
-                  CustomDrawerHeader() : 
-                  Text('Login or Signup'), //? Um card falando para fazer o login
+                context.watch<UserManager>().isLoggedIn
+                    ? CustomDrawerHeader()
+                    : GestureDetector(
+                        child: Container(
+                          margin: EdgeInsets.fromLTRB(8, 16, 16, 16),
+                          child: Text(
+                            'Log In or Sign Up',
+                            style: TextStyle(
+                                fontSize: 20, fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                        onTap: (){
+                          Navigator.of(context).pushNamed('/login');
+                        },
+                      ),
 
-                  Divider(),
+                Divider(),
 
-                  DrawerTile(
-                    title: "/",
-                    iconData: Icons.person,
-                    page: 1,
-                  ),
-                  
-                  DrawerTile(
-                    title: "Optios",
-                    iconData: Icons.settings,
-                    page: 2,
-                  ),
+                DrawerTile(
+                  title: "Home",
+                  iconData: Icons.home,
+                  page: 0,
+                ),
+              
+                DrawerTile(
+                  title: "/",
+                  iconData: Icons.person,
+                  page: 1,
+                ),
 
+                DrawerTile(
+                  title: "Optios",
+                  iconData: Icons.settings,
+                  page: 2,
+                ),
               ],
             ),
           )
-
         ],
       ),
     );

@@ -16,7 +16,7 @@ class CustomDrawer extends StatelessWidget {
           ), */
           //MainDrawerHeader(),
           Container(
-            margin: EdgeInsets.fromLTRB(15, 0, 15, 0),
+            margin: EdgeInsets.fromLTRB(15, 10, 15, 10),
             child: Column(
               children: <Widget>[
                   Divider(),

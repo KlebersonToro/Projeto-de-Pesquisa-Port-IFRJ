@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -8,8 +9,21 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
+    return DefaultTabController(length: 2, 
+      child:Scaffold(
+        appBar: AppBar(
+          bottom: TabBar(tabs: [
+            Tab(text: 'Exercicios',), Tab(text: 'lições')
+          ]),
+          
+        ),
+        body: TabBarView(
+          children: [
+            Container(),
+            Container()
+          ],
+        )
+      )
     );
   }
 }

@@ -22,14 +22,14 @@ class CustomDrawer extends StatelessWidget {
                   Divider(),
 
                   DrawerTile(
-                    title: "Lições",
-                    iconData: Icons.note,
+                    title: "User Screen",
+                    iconData: Icons.person,
                     page: 1,
                   ),
                   
                   DrawerTile(
-                    title: "Mensagens",
-                    iconData: Icons.chat_bubble,
+                    title: "Optios",
+                    iconData: Icons.settings,
                     page: 2,
                   ),
 

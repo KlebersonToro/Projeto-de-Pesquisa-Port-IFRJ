@@ -31,7 +31,7 @@ class CustomDrawer extends StatelessWidget {
                         child: Container(
                           margin: EdgeInsets.fromLTRB(8, 16, 16, 16),
                           child: Text(
-                            'Log In or Sign Up',
+                            'Log In or Sign Up >',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.bold),
                           ),
@@ -50,15 +50,9 @@ class CustomDrawer extends StatelessWidget {
                 ),
               
                 DrawerTile(
-                  title: "/",
-                  iconData: Icons.person,
-                  page: 1,
-                ),
-
-                DrawerTile(
                   title: "Optios",
                   iconData: Icons.settings,
-                  page: 2,
+                  page: 1,
                 ),
               ],
             ),

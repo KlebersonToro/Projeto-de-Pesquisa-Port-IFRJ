@@ -1,25 +1,25 @@
 String getErrorString(String code){
   switch (code) {
     case 'ERROR_WEAK_PASSWORD':
-      return 'Sua senha é muito fraca.';
+      return 'Weak Password.';
     case 'ERROR_INVALID_EMAIL':
-      return 'Seu e-mail é inválido.';
+      return 'Invalid E-mail.';
     case 'ERROR_EMAIL_ALREADY_IN_USE':
-      return 'E-mail já está sendo utilizado em outra conta.';
+      return 'E-mail already taken.';
     case 'ERROR_INVALID_CREDENTIAL':
-      return 'Seu e-mail é inválido.';
+      return 'Invalid E-mail.';
     case 'ERROR_WRONG_PASSWORD':
-      return 'Sua senha está incorreta.';
+      return 'Incorrect Password.';
     case 'ERROR_USER_NOT_FOUND':
-      return 'Não há usuário com este e-mail.';
+      return 'User not found.';
     case 'ERROR_USER_DISABLED':
-      return 'Este usuário foi desabilitado.';
+      return 'Disabled User.';
     case 'ERROR_TOO_MANY_REQUESTS':
-      return 'Muitas solicitações. Tente novamente mais tarde.';
+      return 'Too many requests, try again later.';
     case 'ERROR_OPERATION_NOT_ALLOWED':
-      return 'Operação não permitida.';
+      return 'Operation Denied.';
 
     default:
-      return 'Um erro indefinido ocorreu.';
+      return 'Undefined error.';
   }
 }

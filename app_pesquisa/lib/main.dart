@@ -3,8 +3,11 @@ import 'package:provider/provider.dart';
 import 'package:test_port/base.dart';
 import 'package:test_port/models/page_manager.dart';
 import 'package:test_port/screens/exercises/exercises_screen.dart';
+<<<<<<< HEAD
 import 'package:test_port/screens/home/home_screen.dart';
 import 'package:test_port/screens/lessons/lessons_screen.dart';
+=======
+>>>>>>> 082da7af6d71b7049769e2831089bfb3366fc4f0
 import 'package:test_port/screens/login/login_screen.dart';
 import 'package:test_port/screens/signup/signup_screen.dart';
 import 'models/user_manager.dart';

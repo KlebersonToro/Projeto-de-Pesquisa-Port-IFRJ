@@ -4,6 +4,8 @@ bool emailValid(String email){
   return regex.hasMatch(email);
 }
 
+
+//? Traduzir caso usar telefone
 String validateMobile(String value) {
 String patttern = r'^\([1-9]{2}\) (?:[2-8]|9[1-9])[0-9]{3}\-[0-9]{4}$';
 RegExp regExp = new RegExp(patttern);

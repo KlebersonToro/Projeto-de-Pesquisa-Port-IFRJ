@@ -21,7 +21,7 @@ class LoginScreen extends StatelessWidget {
         centerTitle: true,
         actions: <Widget>[
           FlatButton(
-            child: const Text("SIGN UP", style: TextStyle(color: Colors.white),),
+            child: const Text("Sign Up", style: TextStyle(color: Colors.white),),
             onPressed: (){
               Navigator.of(context).pushNamed('/signup');
             },
@@ -43,12 +43,12 @@ class LoginScreen extends StatelessWidget {
                     TextFormField(
                       controller: emailController,
                       enabled: !userManager.loading,
-                      decoration: InputDecoration(hintText: "Email"),
+                      decoration: InputDecoration(hintText: "E-mail"),
                       keyboardType: TextInputType.emailAddress,
                       autocorrect: false,
                       validator: (email){
                         if(!emailValid(email))
-                          return "Email Inválido";
+                          return "Invalid E-mail";
                         return null;
                       },
                     ),
@@ -103,14 +103,14 @@ class LoginScreen extends StatelessWidget {
                         onFail: (e){
                           scaffoldKey.currentState.showSnackBar(
                             SnackBar(
-                              content: Text("Falha ao entrar: $e"),
+                              content: Text("An error ocurred: $e"),
                               backgroundColor: Colors.red,
                             )
                           );
                         },
 
                         onSuccess: (){
-                          context.read<PageManager>().setPage(1);
+                          Navigator.of(context).pop();
                         }
 
                       );

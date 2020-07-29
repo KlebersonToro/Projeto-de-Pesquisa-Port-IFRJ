@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_port/helpers/alert.dart';
 
 class ModulesScreen extends StatefulWidget {
   @override
@@ -10,19 +11,12 @@ class _ModulesScreenState extends State<ModulesScreen> {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.only(right: 10.0, top: 20.0, left: 15.0, bottom: 20.0),
-      alignment: Alignment.centerLeft,
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-      children: <Widget>[
-        Text('Modulo x', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 23, color: Colors.black)),
-        Expanded(child: ListView.builder(
-          itemCount: 5,
+      child: ListView.builder(
+          itemCount: 20,
           itemBuilder: (context, index){
             return buildCards(context, index);
           }
-        ))
-      ],
-    ),
+        )
     );
   }
   Widget buildCards(context, index){
@@ -35,8 +29,8 @@ class _ModulesScreenState extends State<ModulesScreen> {
               Icon(Icons.library_books, size: 60),
               Column(
                 children: <Widget>[
-                  Text('Lição ${index + 1}'),
-                  Text('Nome da lição')
+                  Text('Modulo ${index + 1}'),
+                  Text('Tema do modulo')
                 ],
               )
             ]
@@ -44,7 +38,7 @@ class _ModulesScreenState extends State<ModulesScreen> {
         )
       ),
       onTap: (){
-
+        alert(context, );
       },
     );
   }

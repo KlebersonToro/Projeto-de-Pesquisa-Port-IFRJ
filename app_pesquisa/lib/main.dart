@@ -4,6 +4,7 @@ import 'package:test_port/base.dart';
 import 'package:test_port/models/page_manager.dart';
 import 'package:test_port/screens/exercises/exercises_screen.dart';
 import 'package:test_port/screens/home/home_screen.dart';
+import 'package:test_port/screens/lessons/lessons_screen.dart';
 import 'package:test_port/screens/login/login_screen.dart';
 import 'package:test_port/screens/signup/signup_screen.dart';
 import 'models/user_manager.dart';
@@ -45,6 +46,9 @@ class MyApp extends StatelessWidget {
               return MaterialPageRoute(builder: (_) => ExercisesScreen());
             
             case '/base': return MaterialPageRoute(builder: (_) => BaseScreen(), settings: settings);
+
+            case '/lessons': 
+              return MaterialPageRoute(builder: (_) => LessonScreen());
 
             default:
               return MaterialPageRoute(builder: (_) => BaseScreen(), settings: settings);

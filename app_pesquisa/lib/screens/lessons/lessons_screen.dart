@@ -4,7 +4,12 @@ class LessonScreen extends StatelessWidget {
   final bool teste = false;
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Lessons', style: TextStyle(color:Colors.black, fontWeight: FontWeight.bold),),
+        centerTitle: true,
+      ),
+      body: Container(
       padding: EdgeInsets.all(10),
       child: ListView.builder(
         itemCount: 20,
@@ -12,6 +17,7 @@ class LessonScreen extends StatelessWidget {
           return buildCard(context, index);
         }
       )
+    )
     );
   }
   Widget buildCard(context, index){
@@ -22,7 +28,7 @@ class LessonScreen extends StatelessWidget {
           child: Row(
             children: <Widget>[
               Icon(Icons.library_books, size: 60),
-              Text('Modulo ${index + 1}'),
+              Text('Lição ${index + 1}'),
               Checkbox(value: teste, onChanged: null)
             ]
           )

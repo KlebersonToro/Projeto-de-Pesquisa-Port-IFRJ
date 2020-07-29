@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_port/screens/modules_screen/modules_screen.dart';
+import 'package:test_port/screens/modules/modules_screen.dart';
 import 'package:test_port/widgets/CustomDrawer/custom_drawer.dart';
 
 class HomeScreen extends StatefulWidget {

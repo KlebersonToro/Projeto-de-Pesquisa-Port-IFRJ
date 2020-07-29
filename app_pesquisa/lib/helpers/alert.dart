@@ -1,35 +1,45 @@
 import 'package:flutter/material.dart';
 
-alert(BuildContext context, String title, String msg,{Function callback}) {
+alert(BuildContext context) {
   showDialog(
     context: context,
     builder: (context) {
       //final screenSize = MediaQuery.of(context).size;
       return AlertDialog(
-        title: Row(
-          children: <Widget>[
-            Icon(Icons.error, color: Colors.redAccent, size: 35,),
-            SizedBox(width: 10,),
-            Text(title, style: TextStyle(color: Colors.black),),
-          ],
-        ),
-        content: Text(msg, style: TextStyle(color: Colors.green, fontSize: 20),),
         actions: <Widget>[
-          Container(
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(32),
-                color: Colors.green[500],
-            ),
-            height: 35,
-            width: 90,
-            child: FlatButton(
-              child: Text("OK", style: TextStyle(color: Colors.white, fontSize: 17),),
-              onPressed: () {
-                Navigator.pop(context);
-                if(callback != null) {
-                  callback();
-                }
-              },
-            ),
+          Row(
+            children: <Widget>[
+              Container(
+                decoration: BoxDecoration(borderRadius: BorderRadius.circular(32),
+                  color: Colors.blue,
+                ),
+                height: 35,
+                width: 90,
+                child: FlatButton(
+                  child: Text("Lessons", style: TextStyle(color: Colors.white, fontSize: 15),),
+                  onPressed: () {
+                    Navigator.pop(context);
+                    Navigator.of(context).pushNamed('/lessons');  
+                  },
+                ),
+              ),
+              Container(width: 90,),
+              Container(
+                decoration: BoxDecoration(borderRadius: BorderRadius.circular(32),
+                  color: Colors.blue,
+                ),
+                height: 35,
+                width: 90,
+                child: FlatButton(
+                  child: Text("Exercises", style: TextStyle(color: Colors.white, fontSize: 15),),
+                  onPressed: () {
+                    Navigator.pop(context);
+                    Navigator.of(context).pushNamed('/exercises');
+                      
+                  },
+                ),
+              )
+            ],
           )
         ],
       );

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AppsProjects\\Flutter\\Pesquisa\\teste_port\\test_port\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "outputFile": "C:\\AppsProjects\\Flutter\\Research\\Pesquisa\\app_pesquisa\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\1544 IRON V4\\.gradle\\caches\\transforms-2\\files-2.1\\6eb14f512292913515d869914807ad40\\play-services-base-17.1.0\\res\\values-pt-rBR\\values.xml",

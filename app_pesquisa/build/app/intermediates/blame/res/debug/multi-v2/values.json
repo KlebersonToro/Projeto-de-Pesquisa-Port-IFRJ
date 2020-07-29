@@ -1,23 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\AppsProjects\\Flutter\\Pesquisa\\teste_port\\test_port\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\AppsProjects\\Flutter\\Research\\Pesquisa\\app_pesquisa\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\AppsProjects\\Flutter\\Pesquisa\\teste_port\\test_port\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "C:\\AppsProjects\\Flutter\\Research\\Pesquisa\\app_pesquisa\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,309,391,495,604,724,823",
-                        "endColumns": "143,109,81,103,108,119,98,75",
-                        "endOffsets": "194,304,386,490,599,719,818,894"
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "137,791",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "433,953"
                     },
                     "to": {
-                        "startLines": "104,105,106,107,108,109,110,111",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "7730,7874,7984,8066,8170,8279,8399,8498",
-                        "endColumns": "143,109,81,103,108,119,98,75",
-                        "endOffsets": "7869,7979,8061,8165,8274,8394,8493,8569"
+                        "startLines": "113,118",
+                        "startColumns": "4,4",
+                        "startOffsets": "8645,8942",
+                        "endLines": "117,120",
+                        "endColumns": "12,12",
+                        "endOffsets": "8937,9102"
                     }
                 },
                 {
@@ -38,22 +40,20 @@
                     }
                 },
                 {
-                    "source": "C:\\AppsProjects\\Flutter\\Pesquisa\\teste_port\\test_port\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\AppsProjects\\Flutter\\Research\\Pesquisa\\app_pesquisa\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "137,791",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "433,953"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,309,391,495,604,724,823",
+                        "endColumns": "143,109,81,103,108,119,98,75",
+                        "endOffsets": "194,304,386,490,599,719,818,894"
                     },
                     "to": {
-                        "startLines": "113,118",
-                        "startColumns": "4,4",
-                        "startOffsets": "8645,8942",
-                        "endLines": "117,120",
-                        "endColumns": "12,12",
-                        "endOffsets": "8937,9102"
+                        "startLines": "104,105,106,107,108,109,110,111",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "7730,7874,7984,8066,8170,8279,8399,8498",
+                        "endColumns": "143,109,81,103,108,119,98,75",
+                        "endOffsets": "7869,7979,8061,8165,8274,8394,8493,8569"
                     }
                 },
                 {

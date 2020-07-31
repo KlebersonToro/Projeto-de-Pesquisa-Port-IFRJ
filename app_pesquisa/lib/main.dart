@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:test_port/base.dart';
+import 'package:test_port/models/modules_manager.dart';
 import 'package:test_port/models/page_manager.dart';
 import 'package:test_port/screens/exercises/exercises_screen.dart';
 import 'package:test_port/screens/lessons/lessons_screen.dart';
@@ -23,6 +24,9 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(
           create: (_) => UserManager(),
           lazy: false,
+        ),
+        ChangeNotifierProvider(
+          create: (_) => ModulesManager(),
         ),
         Provider(
           create: (_) => PageManager(pageController),

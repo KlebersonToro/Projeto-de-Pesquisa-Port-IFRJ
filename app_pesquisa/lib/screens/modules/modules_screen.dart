@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:test_port/helpers/alert.dart';
+import 'package:test_port/models/modules_manager.dart';
+import 'package:test_port/screens/modules/module_tile.dart';
 
 class ModulesScreen extends StatefulWidget {
   @override
@@ -9,37 +12,35 @@ class ModulesScreen extends StatefulWidget {
 class _ModulesScreenState extends State<ModulesScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.only(right: 10.0, top: 20.0, left: 15.0, bottom: 20.0),
-      child: ListView.builder(
-          itemCount: 20,
-          itemBuilder: (context, index){
-            return buildCards(context, index);
-          }
-        )
-    );
-  }
-  Widget buildCards(context, index){
-    return GestureDetector(
-      child: Card(
-        child: Padding(
-          padding: EdgeInsets.all(10),
-          child: Row(
-            children: <Widget>[
-              Icon(Icons.library_books, size: 60),
-              Column(
-                children: <Widget>[
-                  Text('Modulo ${index + 1}'),
-                  Text('Tema do modulo')
-                ],
-              )
-            ]
-          )
-        )
-      ),
-      onTap: (){
-        alert(context, );
+    return Consumer<ModulesManager>(
+      builder: (_, modulesManager, __){
+        return ListView.builder(
+            itemCount: modulesManager.allModules.length,
+            itemBuilder: (context, index) {
+              return ModuleTile(alertCtx: context, module: modulesManager.allModules[index],);
+            });
       },
     );
   }
+
+  /* Widget buildCards(context, index) {
+    return Container(
+      margin: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      child: Card(
+        child: InkWell(
+          child: Padding(
+              padding: EdgeInsets.all(12),
+              child: ListTile(
+                title: ,
+              )
+              ),
+          onTap: () {
+            alert(
+              context,
+            );
+          },
+        ),
+      ),
+    );
+  } */
 }

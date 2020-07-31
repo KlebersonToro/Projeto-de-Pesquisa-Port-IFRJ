@@ -32,7 +32,7 @@ class SignupScreen extends StatelessWidget {
 
                       TextFormField(
                         enabled: !userManager.loading,
-                        decoration: InputDecoration(hintText: "Nome Completo"),
+                        decoration: InputDecoration(hintText: "Complete Name"),
                         autocorrect: false,
                         validator: (name) {
                           if (name.isEmpty)

@@ -6,6 +6,7 @@ import 'package:test_port/helpers/firebase_errors.dart';
 import 'package:test_port/models/user.dart';
 
 class UserManager extends ChangeNotifier {
+  
   UserManager() {
     _loadCurrentUser();
   }

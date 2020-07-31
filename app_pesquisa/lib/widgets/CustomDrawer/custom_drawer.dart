@@ -36,7 +36,7 @@ class CustomDrawer extends StatelessWidget {
                                 fontSize: 20, fontWeight: FontWeight.bold),
                           ),
                         ),
-                        onTap: (){
+                        onTap: () {
                           Navigator.of(context).pushNamed('/login');
                         },
                       ),
@@ -48,12 +48,21 @@ class CustomDrawer extends StatelessWidget {
                   iconData: Icons.home,
                   page: 0,
                 ),
-              
+
                 DrawerTile(
                   title: "Optios",
                   iconData: Icons.settings,
                   page: 1,
                 ),
+
+                context.watch<UserManager>().isLoggedIn
+                    ? DrawerTile(
+                        title: "Log Out",
+                        iconData: Icons.exit_to_app,
+                        isLogOut: true,
+                        dColor: Colors.red,
+                      )
+                    : Container()
               ],
             ),
           )

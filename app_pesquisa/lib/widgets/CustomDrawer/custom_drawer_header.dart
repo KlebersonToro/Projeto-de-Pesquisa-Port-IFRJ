@@ -17,10 +17,10 @@ class CustomDrawerHeader extends StatelessWidget {
               child: Center(child: Icon(Icons.person, color: Colors.grey[600],),),
               backgroundColor: Colors.grey[350],
             ),
-            title: Text('userManager.user.name', 
+            title: Text(userManager.user.name, 
               style: TextStyle(fontSize: 16),
             ),
-            subtitle: Text('userManager.user.email',
+            subtitle: Text(userManager.user.email,
               style: TextStyle(fontSize: 12, color: Colors.grey),
             ),
           );

@@ -158,17 +158,17 @@
 98                android:value="com.google.firebase.components.ComponentRegistrar" />
 98-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
 99            <meta-data
-99-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+99-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
 100                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-100-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+100-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
 101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+101-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
 102            <meta-data
-102-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+102-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
 103                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-103-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+103-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
 104                android:value="com.google.firebase.components.ComponentRegistrar" />
-104-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+104-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
 105            <meta-data
 105-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
 106                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-alert(BuildContext context) {
+choiceAlert(BuildContext context) {
   showDialog(
     context: context,
     builder: (context) {

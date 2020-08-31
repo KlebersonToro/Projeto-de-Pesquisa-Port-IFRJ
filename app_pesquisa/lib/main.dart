@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:test_port/base.dart';
+import 'package:test_port/models/lessons_manager.dart';
 import 'package:test_port/models/modules_manager.dart';
 import 'package:test_port/models/page_manager.dart';
 import 'package:test_port/screens/exercises/exercises_screen.dart';
+import 'package:test_port/screens/lessons/lesson_view.dart';
 import 'package:test_port/screens/lessons/lessons_screen.dart';
 import 'package:test_port/screens/login/login_screen.dart';
 import 'package:test_port/screens/signup/signup_screen.dart';
+import 'models/lesson.dart';
 import 'models/user_manager.dart';
 
 void main() {
@@ -28,6 +31,9 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(
           create: (_) => ModulesManager(),
         ),
+        ChangeNotifierProvider(
+          create: (_) => LessonManager(),
+        ),
         Provider(
           create: (_) => PageManager(pageController),
         )
@@ -48,10 +54,14 @@ class MyApp extends StatelessWidget {
             case '/exercises':
               return MaterialPageRoute(builder: (_) => ExercisesScreen());
             
-            case '/base': return MaterialPageRoute(builder: (_) => BaseScreen(), settings: settings);
+            case '/base': 
+              return MaterialPageRoute(builder: (_) => BaseScreen(), settings: settings);
 
             case '/lessons': 
               return MaterialPageRoute(builder: (_) => LessonScreen());
+
+            case '/lessonview':
+              return MaterialPageRoute(builder: (_) => LessonViewScreen(lesson: settings.arguments as Lesson));
 
             default:
               return MaterialPageRoute(builder: (_) => BaseScreen(), settings: settings);

@@ -25,7 +25,7 @@ class ModuleTile extends StatelessWidget {
               )
               ),
           onTap: () {
-            alert(
+            choiceAlert(
               alertCtx,
             );
           },

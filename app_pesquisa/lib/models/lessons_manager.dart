@@ -15,9 +15,9 @@ class LessonManager extends ChangeNotifier {
 
   void _loadAllLessons() async {
 
-    firestore.collection('lessons').snapshots().listen((snapshot) {
+    firestore.collection('lessons').orderBy('lessonNumber').snapshots().listen((snapshot) {
       allLessons.clear();
-      List<DocumentSnapshot> d = snapshot.documents.reversed.toList();
+      List<DocumentSnapshot> d = snapshot.documents.toList();
       for(final DocumentSnapshot document in d){
         allLessons.add(Lesson.fromDocument(document));
       }

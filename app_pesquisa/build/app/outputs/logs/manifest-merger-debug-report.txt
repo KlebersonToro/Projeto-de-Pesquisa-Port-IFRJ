@@ -19,8 +19,8 @@ MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\1544 IRON V4\.gr
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\7043a9d5f4a737f3f819087d2037f972\play-services-measurement-sdk-17.2.2\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:2:1-26:12
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:17:1-47:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\516d475c610d5ee0701cc5d0e0043980\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\bee2a99b5442147590ed5654a1bb1aa0\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
@@ -94,10 +94,10 @@ MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\7043a9d5f4a737f3f819087d2037f972\play-services-measurement-sdk-17.2.2\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\7043a9d5f4a737f3f819087d2037f972\play-services-measurement-sdk-17.2.2\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:29:5-35:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\516d475c610d5ee0701cc5d0e0043980\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
@@ -208,10 +208,10 @@ MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\7043a9d5f4a737f3f819087d2037f972\play-services-measurement-sdk-17.2.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\7043a9d5f4a737f3f819087d2037f972\play-services-measurement-sdk-17.2.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\516d475c610d5ee0701cc5d0e0043980\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
@@ -296,10 +296,10 @@ MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\1
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\160985c233e23f79bad9a37e22a7158f\play-services-measurement-impl-17.2.2\AndroidManifest.xml:23:5-67
@@ -314,10 +314,10 @@ MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\1
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\a2d3f38d709f8b9f54c2677fdca8f29a\play-services-measurement-17.2.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\160985c233e23f79bad9a37e22a7158f\play-services-measurement-impl-17.2.2\AndroidManifest.xml:24:5-79
@@ -356,10 +356,10 @@ MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\1544 IRON V4\.gr
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\bee2a99b5442147590ed5654a1bb1aa0\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
@@ -481,17 +481,17 @@ ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\User
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ca912bff2260618b5b638fe661521702\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\2b2cb4cfa8ee3d393eca6bab8fdcbb78\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3ea769565a5848a3c5b1c3828000c298\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
 	android:value
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\ecbb582e122724a2adc18dca20405fff\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\3f484d56c1bdb727bb1c1948dcb0368b\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\1544 IRON V4\.gradle\caches\transforms-2\files-2.1\f26cdfb5f8d69cbc9663543f3ec1de65\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
 	android:name
